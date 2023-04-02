@@ -75,7 +75,7 @@ d.addEventListener("DOMContentLoaded", function(event) {
             document.querySelector("#inference-large h4").classList.add("display-block");
             document.querySelector("#inference-large span").classList.add("display-block");
 
-            document.querySelector("#inference-comp h4").textContent = 70.1;
+            document.querySelector("#inference-comp h4").textContent = 78.1;
             document.querySelector("#inference-comp span").textContent = "Test Results";
             document.querySelector("#inference-comp h4").classList.add("display-block");
             document.querySelector("#inference-comp span").classList.add("display-block");
