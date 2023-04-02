@@ -85,8 +85,17 @@
 
         <section class="section section-lg bg-soft" id="testimonials">
             <div class="container">
+                <div class="row pl-lg-0">
+                    <div class="6 pl-md-3 col-md-12 mb-5 mb-lg-0">
+                        <div class="6 d-flex justify-content-center">
+                            <button type="button" id="load-button" class="btn btn-dark shadow-soft btn-cus" data-loading-text="Sending">
+                                <span class="display-4-md p-6">Load BERT</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="row mt-lg-6">
+                <div id="load-bert-1" class="row mt-lg-6 display-none">
                     <div class="col-12 col-md-6 col-lg-6 mb-6 mb-lg-0">
                         <div class="card border-light">
                             <div class="card-body text-center py-5">
@@ -161,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-lg-6 pl-lg-0">
+                <div id="load-bert-2" class="row mt-lg-6 pl-lg-0 display-none ">
                     <div class="6 pl-md-3 col-md-6 mb-5 mb-lg-0">
                         <div class="6 d-flex justify-content-center">
                             <button type="button" id="prune-button" class="btn btn-dark shadow-soft btn-cus" data-loading-text="Sending">

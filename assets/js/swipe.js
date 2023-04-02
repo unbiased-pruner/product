@@ -68,6 +68,23 @@ d.addEventListener("DOMContentLoaded", function(event) {
 
     }
 
+
+    document.getElementById("load-button").onclick = () => {
+
+        setTimeout(() => {
+            document.getElementById("load-bert-1").classList.remove("display-none")
+            document.getElementById("load-bert-2").classList.remove("display-none")
+            setTimeout(() => {
+                document.getElementById("load-bert-1").classList.add("display-block");
+                document.getElementById("load-bert-2").classList.add("display-block");
+            }, 100);
+
+
+        }, 100)
+
+
+    }
+
     document.getElementById("inference-button").onclick = () => {
         setTimeout(() => {
             document.querySelector("#inference-large h4").textContent = 69.44;

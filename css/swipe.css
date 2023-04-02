@@ -37518,13 +37518,16 @@ blockquote {
 .btn-cus {
     width: 40rem;
 }
-
+#load-bert-1,
+#load-bert-2,
 #pruned-info,
 #run-inference {
     opacity: 0;
     transition: opacity 1.0s ease-in-out;
 }
 
+#load-bert-1.display-block,
+#load-bert-2.display-block,
 #pruned-info.display-block,
 #run-inference.display-block {
     opacity: 1;
